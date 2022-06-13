@@ -4,7 +4,7 @@ body {
     margin: auto;
     font-family: 'Roboto'; 
     font-style: normal; 
-    background: #E5E5E5;
+    background: #fff;
 } 
 p { 
     font-weight: 400; 
@@ -60,9 +60,6 @@ li {
     line-height: 31px;
     letter-spacing: 0.03em;
 }
-.logo:hover {
-    text-decoration: underline;
-}
 .Web {
     color: #2196F3;
 }
@@ -75,6 +72,7 @@ li {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    margin-left: 231px;
     letter-spacing: 0.02em;
 } 
 .menu-line {
@@ -86,14 +84,13 @@ li {
     margin: 15px 30px;
 }
 .menu-item :hover {
-    text-decoration: underline;
+    color: #2196F3;
 }
 .menu-link {
     color: #000;
 }
 .menu-list {
-    margin-left: 331px;
-    color: #2196F3;
+    color: #757575;
 }
 /*--------main---------*/
 .block1 {
@@ -119,23 +116,23 @@ li {
 }
 .block2 {
     height: 289px;
-    padding-left: 175px;
+    margin-left: 175px;
     padding-top: 94px;
 }
 .info {
     display: inline-block;
     display: flex;
-    width: 250px;
+}
+.info-item { 
     height: 75px;
     margin: 30px;
-}
-.info-item {
+    width: 270px;
 }
 .info-h {
-    text-align: left;
+    width: 270px;
 }
 p {
-    text-align: left;
+    width: 270px;
     color: #757575;
 }
 .block3 {
@@ -163,7 +160,6 @@ p {
 }
 .team {
     display: flex;
-    margin-top: 50px;
     padding-left: 215px;
 }
 .team-li {
@@ -176,18 +172,11 @@ p {
     margin: 30px;
 }
 .team-item {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
     text-align: center;
 }
-p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.p1 {
+    width: 270px;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
 }
 .footer {
     width: 1600px;
@@ -201,9 +190,6 @@ p {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-}
-.logo1 :hover {
-    text-decoration: underline;
 }
 .Web1 {
     color: #2196F3;
@@ -220,7 +206,7 @@ p {
     letter-spacing: 0.03em;
 }
 .all :hover {
-    text-decoration: underline; 
+    color: #2196F3;
 }
 .point {
     color: #fff;
@@ -229,22 +215,23 @@ p {
     color: rgba(255, 255, 255, 0.6);
     margin-top: 8px;
 }
-.block5 {
+.btn-groop {
+    padding-left: 495px; 
     margin-top: 100px;
-} 
-.exem {
-    display: inline-block;
-    display: flex; 
-    padding-left: 598px; 
+    display: flex;
 }
 .button1 {
-    color: #212121;
+    height: 38px;
+    font-size: 16px;
+    padding: 6px 22px;
     border-radius: 4px;
-    background-color: #F5F4FA;
+    text-align: center;
+    background: #F5F4FA;
     cursor: pointer;
 }
 .button1:hover {
-    text-decoration: #2196F3;
+    background: #2196F3;
+    color: #FFFFFF;
 }
 .block6 {
     display: flex;
