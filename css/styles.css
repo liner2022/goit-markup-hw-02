@@ -9,14 +9,14 @@ body {
 p { 
     font-weight: 400; 
     font-size: 16px; 
-    line-height: 30px; 
+    line-height: 1.88; 
     letter-spacing: 0.03em; 
     color: #757575; 
 } 
 h1 { 
     font-weight: 900; 
     font-size: 44px; 
-    line-height: 60px; 
+    line-height: 1.36; 
     text-align: center; 
     letter-spacing: 0.06em; 
     text-transform: uppercase; 
@@ -25,7 +25,7 @@ h1 {
 h2 { 
     font-weight: 700; 
     font-size: 36px; 
-    line-height: 42px; 
+    line-height: 1.17; 
     text-align: center; 
     letter-spacing: 0.03em; 
     color: #212121; 
@@ -33,7 +33,7 @@ h2 {
 h3 { 
     font-weight: 700; 
     font-size: 18px; 
-    line-height: 36px; 
+    line-height: 2; 
     letter-spacing: 0.06em; 
     color: #212121; 
 } 
@@ -50,14 +50,17 @@ li {
 .menu {
     display: inline-block;
     display: flex;
+    
 }
 .logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
     width: 145px;
     margin-left: 215px;
     margin-top: 25px;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 .Web {
@@ -69,9 +72,11 @@ li {
 .Contacts {
     display: inline-block;
     display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     margin-left: 231px;
     letter-spacing: 0.02em;
 } 
@@ -79,8 +84,10 @@ li {
     display: inline-block;
     display: flex;
 }
+.menu-link-current {
+    color: #2196F3;
+}
 .menu-item {
-    font-size: 14px;
     margin: 15px 30px;
 }
 .menu-item :hover {
@@ -94,20 +101,29 @@ li {
 }
 /*--------main---------*/
 .block1 {
-    height: 600px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     background: #2F303A;
     text-align: center;
     padding-top: 200px;
+    height: 520px;
 }
 .buttom {
+    ffont-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 1.88;
     text-align: Center;
     width: 200px;
     height: 50px;
     left: 700px;
-    top: 430px;  
-    font-size: 16px;  
+    top: 430px;   
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -122,20 +138,42 @@ li {
 .info {
     display: inline-block;
     display: flex;
+    
 }
 .info-item { 
-    height: 75px;
     margin: 30px;
     width: 270px;
 }
 .info-h {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     width: 270px;
 }
 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     width: 270px;
+    height: 75px;
     color: #757575;
+    text-align: left;
 }
 .block3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
     padding-top: 0px;
     height: 517px;
 }
@@ -156,6 +194,13 @@ p {
     height: 648px;
 }
 .our-team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
     padding-top: 94px;  
 }
 .team {
@@ -172,9 +217,21 @@ p {
     margin: 30px;
 }
 .team-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 .p1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     width: 270px;
     text-align: center;
 }
@@ -185,10 +242,12 @@ p {
     padding-top: 60px;
 }
 .logo1 {
-    margin: 215px;
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
+    margin: 215px;
     letter-spacing: 0.03em;
 }
 .Web1 {
@@ -209,10 +268,22 @@ p {
     color: #2196F3;
 }
 .point {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: #fff;
 }
 .point1 {
-    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em
+    color: rgba 255, 255, 255, 0.6;
     margin-top: 8px;
 }
 .btn-groop {
@@ -221,11 +292,16 @@ p {
     display: flex;
 }
 .button1 {
-    height: 38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    height: 38px;
     padding: 6px 22px;
     border-radius: 4px;
-    text-align: center;
     background: #F5F4FA;
     cursor: pointer;
 }
@@ -246,13 +322,24 @@ p {
     margin-left: 215px;
 }
 .poject-list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
     width: 322px;
-    height: 36px;
     left: 239px;
     top: 576px;
     color: #212121;
 }
 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
     width: 322px;
     left: 239px;
     top: 616px;
